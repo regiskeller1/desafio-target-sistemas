@@ -1,0 +1,57 @@
+Enunciado:
+4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade
+constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade
+constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+Resposta:
+
+Para determinar qual veículo estará mais próximo de Ribeirão Preto quando eles se cruzarem na rodovia, precisamos
+calcular a distância percorrida por cada veículo até o ponto de encontro.
+
+Vamos chamar de "x" a distância percorrida pelo carro e de "y" a distância percorrida pelo caminhão, ambas contadas a partir de Ribeirão Preto. Como eles estão indo em direções
+opostas, podemos somar essas distâncias para obter a distância total entre as duas cidades, que é de 100 km:
+
+x + y = 100
+
+Também podemos usar a fórmula de velocidade média (velocidade = distância/tempo) para relacionar a distância percorrida por cada veículo com o tempo de viagem:
+
+tempo do carro = x / 110
+
+tempo do caminhão = y / 80 + 2 * 5 / 60 (levando em conta os tempos dos pedágios)
+
+Igualando os tempos, podemos obter uma nova equação:
+
+x / 110 = y / 80 + 1/6
+
+Podemos agora isolar uma das variáveis e substituir na equação da distância:
+
+x = 100 - y
+
+Substituindo:
+
+(100 - y) / 110 = y / 80 + 1/6
+
+Multiplicando tudo por 880, temos:
+
+800 - 8y = 1320y + 220
+
+Simplificando:
+
+1328y = 580
+
+y = 580 / 1328 ≈ 0,437 km
+
+Substituindo novamente:
+
+x = 100 - y ≈ 99,56 km
+
+Portanto, o caminhão estará mais próximo de Ribeirão Preto quando eles
+se cruzarem na rodovia, pois ele terá percorrido apenas 0,437 km nessa direção, enquanto o carro já terá percorrido quase 100 km.
