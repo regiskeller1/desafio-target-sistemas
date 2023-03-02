@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//Espero conseguir a oportunidade :)
 public class ExercicioDois {
 
     public static void main(String[] args) {
